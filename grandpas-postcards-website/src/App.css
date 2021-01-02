@@ -1,0 +1,52 @@
+.App {
+  max-width: 960px;
+  margin: auto;
+  padding: 10px;
+}
+
+.Introduction > h1 {
+  text-align: center;
+}
+
+.Introduction > p {
+  text-align: justify;
+}
+
+.Toolbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+}
+
+.Word-Cloud{
+  float: left;
+  width: 200px;
+}
+
+.Add-Image{
+  display: inline-block;
+  font-size: 50px;
+}
+
+.Search{
+  float: right;
+  text-align: right;
+  width: 200px;
+  position: relative;
+}
+
+.Search-icon {
+  transform: rotate(45deg);
+  display: inline-block;
+  position: absolute;
+  right: 5px;
+}
+
+.Postcard {
+  height: 170px;
+  width: 300px;
+  background-color: grey;
+  margin: 10px;
+  float: left;
+}
